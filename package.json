@@ -1,0 +1,24 @@
+{
+  "name": "jarel",
+  "version": "0.0.1",
+  "description": "A relational algebra for JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulii/jarel.git"
+  },
+  "keywords": [
+    "json",
+    "query",
+    "filter"
+  ],
+  "author": "Ryo Yoneyama <yone.info@gmail.com> (https://github.com/yulii)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yulii/jarel/issues"
+  },
+  "homepage": "https://github.com/yulii/jarel#readme"
+}
