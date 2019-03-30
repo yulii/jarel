@@ -21,3 +21,18 @@ test('Tuple#fetch return undefined when keys not found.', t => {
   var tuple = new Tuple(Fixture.colors[0]);
   t.is(tuple.fetch('code', 'rgba', 5), undefined);
 })
+
+test('Tuple#slice return a object when the argument is single keys.', t => {
+  var tuple = new Tuple(Fixture.colors[0]);
+  t.deepEqual(tuple.slice('code.rgba'), {
+    code: { rgba: [255,255,255,1] }
+  });
+})
+
+test('Tuple#slice return a object when the argument is multi keys.', t => {
+  var tuple = new Tuple(Fixture.colors[0]);
+  t.deepEqual(tuple.slice('code.hex', 'color'), {
+    color: 'black',
+    code: { hex: '#000' }
+  });
+})
