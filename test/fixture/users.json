@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "yulii",
+    "type": "admin"
+  },
+  {
+    "id": 2,
+    "name": "jarel",
+    "type": "member"
+  },
+  {
+    "id": 3,
+    "name": "unknown",
+    "type": "guest"
+  }
+]
